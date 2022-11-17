@@ -3,7 +3,7 @@
 Code for the NeurIPS 2022 paper [PALBERT: Teaching ALBERT to Ponder](https://arxiv.org/abs/2204.03276).
 
 <p align="center">
-  <img width="1024" height="1024" src="assets/dalle.png">
+  <img width="512" height="512" src="assets/dalle.png">
 </p>
 
 - [PALBERT](#palbert)
