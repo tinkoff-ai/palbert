@@ -1,6 +1,10 @@
 # PALBERT
 
-Code for the NeurIPS 2022 paper [PALBERT: Teaching ALBERT to Ponder](https://arxiv.org/abs/2204.03276). 
+Code for the NeurIPS 2022 paper [PALBERT: Teaching ALBERT to Ponder](https://arxiv.org/abs/2204.03276).
+
+<p align="center">
+  <img width="1024" height="1024" src="assets/dalle.png">
+</p>
 
 - [PALBERT](#palbert)
   * [How to run](#how-to-run)
@@ -79,7 +83,7 @@ python3 src/train.py \
   --batch-size 128 \
   --type "albert-base-v2" \
   --name "rte" \
-  --fp16 
+  --fp16
 ```
 
 
@@ -91,7 +95,7 @@ src
 ├── create_dummy_test.py  # create dummy test for AX and WNLI
 ├── dataset.py  # glue dataset loading
 ├── loss.py  # regularization and kl losses
-├── modeling  # model 
+├── modeling  # model
 │   ├── __init__.py
 │   ├── palbert_fast.py  # albert-based models
 │   └── proberta_model.py  # roberta-based models
@@ -121,4 +125,3 @@ You can cite our paper with the following bibitex:
 
 ```
 (NeurIPS bibitex will be available soon)
-
