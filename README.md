@@ -110,18 +110,17 @@ src
 
 ## Citation
 
-You can cite our paper with the following bibitex:
+You can cite our paper with the following bibtex:
 ```
-@misc{palbert,
-  doi = {10.48550/ARXIV.2204.03276},
-  url = {https://arxiv.org/abs/2204.03276},
-  author = {Balagansky, Nikita and Gavrilov, Daniil},
-  keywords = {Machine Learning (cs.LG), Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  title = {PALBERT: Teaching ALBERT to Ponder},
-  publisher = {arXiv},
-  year = {2022},
-  copyright = {Creative Commons Attribution 4.0 International}
+@inproceedings{palbert,
+ author = {Balagansky, Nikita and Gavrilov, Daniil},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh},
+ pages = {14002--14012},
+ publisher = {Curran Associates, Inc.},
+ title = {PALBERT: Teaching ALBERT to Ponder},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2022/file/5a9c1af5f76da0bd37903b6f23e96c74-Paper-Conference.pdf},
+ volume = {35},
+ year = {2022}
 }
-
 ```
-(NeurIPS bibitex will be available soon)
