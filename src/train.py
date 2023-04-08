@@ -15,8 +15,6 @@ from transformers import AutoConfig, AutoModelForSequenceClassification
 from dataset import cross_val_split, get_test_dataloaders
 from modeling.palbert_fast import (AlbertPABEEForSequenceClassification,
                                    PAlbertForSequenceClassification)
-from src.modeling.proberta_model import (PRobertaForSequenceClassification,
-                                         RobertaPABEEForSequenceClassification)
 from trainer import Trainer
 from utils.set_deterministic import set_deterministic_mode
 
@@ -91,11 +89,6 @@ def main(args):
                     args.type, config=config
                 )
                 p_model = model.albert
-            elif "roberta" in args.type:
-                model = PRobertaForSequenceClassification.from_pretrained(
-                    args.type, config=config
-                )
-                p_model = model.roberta
 
             p_model.set_threshold(args.ponder_threshold)
             if args.init_sinusoidal:

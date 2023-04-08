@@ -97,8 +97,7 @@ src
 ├── loss.py  # regularization and kl losses
 ├── modeling  # model
 │   ├── __init__.py
-│   ├── palbert_fast.py  # albert-based models
-│   └── proberta_model.py  # roberta-based models
+│   └── palbert_fast.py  # albert-based models
 ├── sub_zipper.py  # zip submission
 ├── test.py  # create test set predictions
 ├── train.py  # training script
